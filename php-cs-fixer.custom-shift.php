@@ -33,7 +33,8 @@ $rules = [
         'single_item_single_line'             => true,
         'single_line'                         => true,
     ],
-    'concat_space' => [
+    'compact_nullable_typehint' => true,
+    'concat_space'              => [
         'spacing' => 'none',
     ],
     'constant_case'                => ['case' => 'lower'],
@@ -133,6 +134,7 @@ $rules = [
         'comment_types' => ['hash'],
     ],
     'single_quote'                   => true,
+    'single_space_after_construct'   => true,
     'space_after_semicolon'          => true,
     'standardize_not_equals'         => true,
     'switch_case_semicolon_to_colon' => true,
@@ -142,7 +144,7 @@ $rules = [
     'trim_array_spaces'              => true,
     'unary_operator_spaces'          => true,
     'visibility_required'            => [
-        'elements' => ['method', 'property'],
+        'elements' => ['method', 'property', 'const'],
     ],
     'whitespace_after_comma_in_array' => true,
 ];
